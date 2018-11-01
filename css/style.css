@@ -1,0 +1,167 @@
+.header-logo-navbar ul {
+	float:right;
+}
+
+.header-logo-navbar ul li {
+    padding-top: 37px; 
+	padding-bottom: 33px;
+	margin-left: 69px;
+	display: block;
+	list-style-type: none;
+	float: left;
+}
+
+.header-logo-navbar ul li a {
+    text-decoration: none;
+    font-family: "lato medium";
+    font-size: 0.9975em;
+	color:white;
+}
+
+.header-logo-navbar ul li:hover a {
+	color:red;	
+}
+
+.header-logo-navbar ul li:hover {
+    margin-bottom: -1px; 
+	border-bottom: 1px solid red;
+}
+
+.login :hover a {
+	color:red;
+}
+
+.register :hover a {
+	color:red;
+}
+
+.banner-text {
+    margin: 0 auto;
+	color:white;
+	width:100%;
+}
+
+.banner-text h1 {
+    line-height: 50px;
+	text-align: center;
+	font-size: 4.5em; 
+	margin-bottom:15px;
+	font-family: "myriad pro";
+	font-weight: bold;
+}
+
+.banner-text p {
+    font-size: 2em;
+	font-style: italic;
+	line-height: 48px;
+	font-family: "georgia";
+	text-align: center;
+}
+
+.login-register-button p{
+    font-size:1.375em;
+	text-align: center;
+	font-family:"lato-regular";
+}
+
+.login-register-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* footer*/
+
+.footer-navbar-list ul li {
+    padding: 28px 0;
+	margin-left: 2.899em;
+	float: left;
+	list-style-type: none;
+}
+
+.footer-navbar-list ul li a {
+    font-size: 13px;
+	text-decoration: none;
+	color: #616161;
+	font-family: "lato";
+	font-weight: medium;
+}
+
+.footer-navbar-list ul li:hover a {
+	color: white;
+}
+
+#footer-navbar-active {
+	color: white;
+}
+
+.footer-box-1 {
+	width: 31.5433333333%;
+	float: left;
+	border-right:1px solid #666666;
+	padding: 0 0;
+}
+
+.footer-box-1 p a {
+	text-decoration: none;
+	color:inherit;
+}
+
+.footer-box-2 {
+    margin-left: 107px;
+	border-right:1px solid #666666;
+	width: 32.833333%;
+	float: left;
+}
+
+.footer-box-2 ul li {
+    padding: 5px 0;
+	list-style-type: none;
+}
+
+.footer-box-2 ul li:hover a {
+	color: white;
+}
+
+.footer-box-1 p {
+    font-family: "lato";
+    margin-right: 80px;
+	margin-bottom: 16px;
+	line-height: 25px;
+	font-size: 0.9199em;
+	color: #666666;
+}
+
+.footer-navbar-list ul {
+	float: right;
+}
+
+.footer-box-2 ul li a {
+    font-family: "lato";
+	font-size: 0.9199em;
+	text-decoration: none;
+	color:#666666;
+}
+
+.footer-box2-list-1 {
+    float: left;
+	width:187px;
+}
+
+.footer-box2-list-2 {
+    float:left;
+	width: 187px;
+}
+
+.footer-box-3 {
+    margin-left: 83px;
+	height: 100px;
+	width: 19.4%;
+	float: left;
+}
+
+.footer-box-3 p {
+    font-family: "lato";
+	font-size: 0.9199em;
+	line-height: 29px;
+	color:#666666;
+}
