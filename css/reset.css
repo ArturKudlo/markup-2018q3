@@ -14,7 +14,7 @@ p, a, h1, h2, h3{
 }
 
 img{
-	display:block; /*removes 1px on bottom that is generateed automatically*/
+	display:block;
 }
 
 @font-face {

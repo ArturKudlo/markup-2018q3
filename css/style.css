@@ -27,6 +27,11 @@
 	border-bottom: 1px solid red;
 }
 
+.active-top-navbar {
+	border-bottom: 1px solid white;
+	margin-bottom: -1px;
+}
+
 .login :hover a {
 	color:red;
 }
@@ -58,7 +63,7 @@
 	text-align: center;
 }
 
-.login-register-button p{
+.login-register-button p {
     font-size:1.375em;
 	text-align: center;
 	font-family:"lato-regular";
@@ -68,8 +73,91 @@
     color: white;
     text-decoration: none;
 }
+/* ----------------------forms-------------------*/
+.form-wrapper h3 {
+	font-family: "lato";
+	font-size: 1.5em;
+	text-align: center;
+}
 
-/* footer*/
+.form-wrapper p {
+	text-align: center;
+	text-align: left;
+	margin: 20px 0;
+	font-family: 'Montserrat Ultra Light';
+	font-size: 0.9999em;
+}
+
+.input-form {
+	width: 100%;
+	margin-top: 48px;
+	border: 1px solid #cccccc;
+	padding: 8px 0px;
+	color: #cccccc;
+}
+
+.input-field {
+	font-size: 0.9375em;
+	padding: 7px  15px;
+	border: none;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	width:78.7%; 
+	font-family: "lato";
+	font-weight: bold;
+}
+
+.input-field:focus {
+	outline: none;
+}
+
+.select-box:focus {
+	outline: none;
+}
+
+.select-box {
+	width: 9.7%;
+	border: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../images/dropdown.png");
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: 80% 50%;
+    color: #cccccc;
+	font-family: "lato";
+	font-size: 0.9375em;
+	padding: 7px 14px;
+	float: right;
+}
+
+.www-box {
+	width: 5.91666%;
+	font-family: "lato";
+	font-size: 0.9375em;
+	padding: 14px;
+}
+/*-----------table-----------*/
+.form-table {
+	background-image: url("../images/table_design.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.form-table tr td {
+	font-size: 0.875em;
+	padding-top: 40px;
+	padding-bottom: 37px;
+	color: #cccccc;	
+	width:20%;
+	text-align: center;
+	font-family: "lato";
+}
+
+/* -------------------footer--------------------------------*/
 
 .footer-navbar-list ul li {
     padding: 28px 0;
@@ -164,4 +252,83 @@
 	font-size: 0.9199em;
 	line-height: 29px;
 	color:#666666;
+}
+
+.testomonial-text p {
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	font-family: "lato light"; 
+	font-size:  20px;
+}
+
+.testomonial-scroll h2 {
+	text-align: center;
+	font-size:17px;
+	color: white;
+	line-height: 50px;
+	font-family:"lato";
+	font-weight: normal; 
+}
+
+.bold-font {
+	margin-right: 6px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.testomonial-scroll-icon {
+	border:2px solid white;
+	display: inline-block;
+	border-radius: 100%;
+	margin: 0 0 0 6;
+	width: 5px;
+	height: 5px;
+}
+
+.testomonial-scroll-icon:hover {
+	background-color: white;
+}
+
+.active-scroll {
+	background-color: white;
+}
+
+.function-box {
+	float: left;
+	width: 18.5%;
+}
+
+.function-box-margin-right {
+	margin-right: 8.666666667%;
+}
+
+.function-img {
+	height:62px;
+	border-radius: 100%;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	width:62px;
+}
+
+.function-img img {
+	width:100%;
+}
+
+.function-box h2 {
+	font-size: 18px;
+	text-align: center;
+	padding:18px 0 0 0;
+	font-family:"lato";
+	font-weight: bold;
+}
+
+.function-box p {
+	font-family:"lato";
+	text-align: center;
+	line-height: 22px;
+	padding:4 0 0 0;
+	font-weight: normal;
+	font-size: 0.9775em;
 }

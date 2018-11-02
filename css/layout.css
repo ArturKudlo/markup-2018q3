@@ -1,8 +1,25 @@
 /* ------------------------header--------------------------------*/
+.main-container {
+	background-color: black;
+}
+
+.content-wrapper {
+	padding: 0 2px;
+	margin: auto;
+	width: 75em; 
+}
+
+/*--------package---------*/
 .package-section {
-	width:100%;
 	background-image: url("../images/pricingbg.jpg");
 	background-repeat:no-repeat;
+	width:100%;
+}
+
+.package-wrapper {
+	padding: 100 0 80px 0;
+	border-bottom: 1px dashed #cccccc;
+	width:100%;
 }
 
 .login-register-wrapper {
@@ -21,10 +38,37 @@
 
 .logo-wrapper {
 	width: 11.83333333333%;
-	float:left;
+	float: left;
 	padding-top: 32px;
 	padding-left: 4px;
 }
+/*----------testominial---------*/
+.testomonial-wrapper {
+	width:100%;
+}
+
+.testomonial-text {
+	margin: 0 auto;
+	padding: 47px 0 32px 0;
+	width: 76.365%;
+}
+
+.testomonial-section {
+	background-image: url("../images/commnsbg.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+/*---------------------function------------*/
+.functions-section {
+	width:100%;
+}
+
+.function-wrapper {
+	padding: 98px 0 94px 0;
+	width:100%;
+}
+
 /* ----------------------------footer---------------------- */
 .footer-section {
 	width:100%;
@@ -56,3 +100,16 @@
 	width:100%;
 	padding: 52px 0px;
 }
+/*-------form-----------*/
+.form-wrapper {
+	padding-top:86px;
+	padding-bottom: 91px;
+	margin: 0 auto;
+	width:74%;
+}
+
+.form-section {
+	width:100%;
+}
+
+
