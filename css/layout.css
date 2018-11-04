@@ -29,11 +29,36 @@
 	background-size: 100% 100%;
 }
 
+.login-register-button {
+	float:left;
+	padding: 44px 0;
+	width:50%;
+}
+
+.header-logo-navbar {
+	border-bottom: 1px solid #666666;
+}
+
+.header-wrapper {
+	width:100%;
+}
+
 .header-section {
 	width:100%;
 	min-width: 1200px;
 	background-image: url("../images/homebg.jpg");
 	background-repeat: no-repeat;
+}
+
+.header-navbar {
+	float:right;
+	width: 87.5%;
+}
+
+.banner-wrapper{
+	padding-top: 353px;
+	padding-bottom: 340px;
+	width:100%;
 }
 
 .logo-wrapper {
@@ -112,4 +137,11 @@
 	width:100%;
 }
 
+.about-us-section {
+	width:100%;
+}
 
+.about-us-wrapper {
+	padding: 105px 0 95px 0;
+	width:100%;
+}

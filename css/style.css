@@ -32,14 +32,8 @@
 	margin-bottom: -1px;
 }
 
-.login :hover a {
-	color:red;
-}
 
-.register :hover a {
-	color:red;
-}
-
+/*------banner-------------*/
 .banner-text {
     margin: 0 auto;
 	color:white;
@@ -62,7 +56,7 @@
 	font-family: "georgia";
 	text-align: center;
 }
-
+/*-------------login-----------*/
 .login-register-button p {
     font-size:1.375em;
 	text-align: center;
@@ -72,6 +66,14 @@
 .login-register-button a {
     color: white;
     text-decoration: none;
+}
+
+.login :hover a {
+	color:red;
+}
+
+.register :hover a {
+	color:red;
 }
 /* ----------------------forms-------------------*/
 .form-wrapper h3 {
@@ -155,6 +157,340 @@
 	width:20%;
 	text-align: center;
 	font-family: "lato";
+}
+
+
+/*-------------testomonial--------------*/
+.testomonial-text p {
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	font-family: "lato light"; 
+	font-size:  20px;
+}
+
+.testomonial-scroll h2 {
+	text-align: center;
+	font-size:17px;
+	color: white;
+	line-height: 50px;
+	font-family:"lato";
+	font-weight: normal; 
+}
+
+.bold-font {
+	margin-right: 6px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.testomonial-scroll-icon {
+	border:2px solid white;
+	display: inline-block;
+	border-radius: 100%;
+	margin: 0 0 0 6;
+	width: 5px;
+	height: 5px;
+}
+
+.testomonial-scroll-icon:hover {
+	background-color: white;
+}
+
+.active-scroll {
+	background-color: white;
+}
+
+/*------------function------------*/
+.function-box {
+	float: left;
+	width: 18.5%;
+}
+
+.function-box-margin-right {
+	margin-right: 8.666666667%;
+}
+
+.function-img {
+	height:62px;
+	border-radius: 100%;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	width:62px;
+}
+
+.function-img img {
+	width:100%;
+}
+
+.function-box h2 {
+	font-size: 18px;
+	text-align: center;
+	padding:18px 0 0 0;
+	font-family:"lato";
+	font-weight: bold;
+}
+
+.function-box p {
+	font-family:"lato";
+	text-align: center;
+	line-height: 22px;
+	padding:4 0 0 0;
+	font-weight: normal;
+	font-size: 0.9775em;
+}
+
+/*-------------package----------------*/
+.package-box {
+	width:16.75%;
+	background-color: white;
+	padding: 34px 2.25% 34px 2.25%;
+	box-shadow: 0 1px 4px #cccccc;
+	float: left;
+}
+
+.package-box-icon {
+	width: 100%;
+}
+
+.package-box-icon img {
+	margin: auto;
+	padding-right: 5px;
+	width:57px;
+}
+
+.margin-right {
+	margin-right:4.98%;
+}
+
+.normal {
+	border-top:5px solid #7f8c8d;
+}
+
+.normal a:hover {
+	color:#7f8c8d;
+}
+
+.big {
+	border-top:5px solid #f85f40;
+}
+
+.big a:hover {
+	color:#f85f40;
+}
+
+.biggest {
+	border-top:5px solid #1abc9c;
+}
+
+.biggest a:hover {
+	color:#1abc9c;
+}
+
+.basic {
+	border-top:5px solid #f9d423;
+}
+
+.basic a:hover {
+	color:#f9d423;
+}
+
+.package-details h1 {
+	text-align: center;
+	padding: 18px 0 15px 0;
+	border-bottom: 1px solid #cccccc;
+	font-family: "lato";
+	font-size: 1em;	
+}
+
+.package-details a h1 {
+	border: none;
+}
+
+.package-details a {
+	color:black;
+	text-decoration: none;
+}
+
+.package-details h2 {
+	font-family: "lato";
+	text-align: center;
+	margin: 0 auto;
+	padding: 31px 0 1px 12px;
+	position: relative;
+	width:45%;
+	font-size: 1.6875em;
+}
+
+.basic-border {
+	border-bottom: 3px solid #f9d423;
+}
+
+.lower-case-per-month {
+	font-size: 14px;
+}
+
+.price-unit {
+	position: absolute;
+	left: 15px;
+	top:34px;
+	font-weight: 1000;
+	font-size: 16px;
+}
+
+.package-details-table {
+	width:100%;
+	padding: 6px 0 7px 0;
+	border-bottom: 1px solid #cccccc;
+}
+
+.package-details-table tr td {
+	font-size: 0.875em;
+	color: black;
+	padding: 8px 0 7px 0;
+	font-family: "lato regular";
+}
+
+.basic-package-price p {
+	color:#f9d423;
+	text-align: right;
+	font-weight: bold;
+}
+
+.normal-package-price p {
+	font-weight: bold;
+	color:#7f8c8d;
+	text-align: right;
+}
+
+.big-package-price p {
+	font-weight: bold;
+	text-align: right;
+	color:#f85f40;
+}
+
+.biggest-package-price p {
+	font-weight: bold;
+	color:#1abc9c;
+	text-align: right;
+}
+
+.normal-border {
+	border-bottom: 3px solid #7f8c8d;
+}
+
+.big-border {
+	border-bottom: 3px solid #f85f40;
+}
+
+.biggest-border {
+	border-bottom: 3px solid #1abc9c;
+}
+
+
+/*---------------------- about us-------------*/
+.about-us-text {
+	float: left;
+	border-right: 1px dashed #cccccc;
+	width: 43.333333333333%;
+}
+
+.about-us-text h1 {
+	padding: 0 2px 0 2px;
+	font-weight: bold;
+	line-height: 36px;
+	font-family: "lato";
+	font-size: 2.1875em; 
+}
+
+.about-us-text p {
+	font-weight: thin;
+	line-height: 27px;
+	margin-top: 21px;
+	font-family: "lato";
+	font-size: 1.0929em;
+	padding: 0 85px 0 1px;	
+}
+
+.our-team {
+	width: 56.58333%;
+	float: right;
+}
+
+.our-team-profile-box {
+	float: left;
+	padding: 0 14px 0 14px;
+	height: 200px;
+	width:16.78969%;
+}
+
+.our-team-profile-box h2 {
+	font-family: "lato semibold";
+	font-size: 1.0625em;
+	text-align: center;
+	line-height: 45px;
+}
+
+.our-team-profile-box p {
+	font-family: "lato regular";
+	text-align: center;
+	line-height: 8px;
+	font-size: 0.9375em;
+}
+
+.our-team-img {
+	border:5px solid #cccccc;
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	margin: 3px auto 0 auto;
+}
+
+.our-team-img img {
+	width:100%;
+}
+
+.our-team-margin-left {
+	margin-left: 87px;
+}
+
+.our-team-margin-right {
+	margin-left: 4.9399em;
+}
+
+.social-link {
+	margin: 15px auto 0 auto;
+	width: 94px;
+}
+
+.social-link ul li {
+	background-color: #bfbfbf;
+	float: left;
+	list-style-type: none; 
+}
+
+.social-link ul li:first-child {
+	margin: 0 20px 0 0; 
+}
+
+.social-link ul li:last-child {
+	margin: 0 0 0 22px; 
+}
+
+.social-link img {
+	float: left;
+	width:15px;
+	height: 15px;	
+}
+
+.social-link ul li:hover {
+	background-color: #1f89ba;
+}
+
+.social-link-margin-right {
+	margin-right: 22px;
 }
 
 /* -------------------footer--------------------------------*/
@@ -252,83 +588,4 @@
 	font-size: 0.9199em;
 	line-height: 29px;
 	color:#666666;
-}
-
-.testomonial-text p {
-	text-align: center;
-	color: white;
-	line-height: 30px;
-	font-family: "lato light"; 
-	font-size:  20px;
-}
-
-.testomonial-scroll h2 {
-	text-align: center;
-	font-size:17px;
-	color: white;
-	line-height: 50px;
-	font-family:"lato";
-	font-weight: normal; 
-}
-
-.bold-font {
-	margin-right: 6px;
-	font-size:20px;
-	font-weight: bold;
-}
-
-.testomonial-scroll-icon {
-	border:2px solid white;
-	display: inline-block;
-	border-radius: 100%;
-	margin: 0 0 0 6;
-	width: 5px;
-	height: 5px;
-}
-
-.testomonial-scroll-icon:hover {
-	background-color: white;
-}
-
-.active-scroll {
-	background-color: white;
-}
-
-.function-box {
-	float: left;
-	width: 18.5%;
-}
-
-.function-box-margin-right {
-	margin-right: 8.666666667%;
-}
-
-.function-img {
-	height:62px;
-	border-radius: 100%;
-	overflow: hidden;
-	width: 100%;
-	margin: 0 auto;
-	width:62px;
-}
-
-.function-img img {
-	width:100%;
-}
-
-.function-box h2 {
-	font-size: 18px;
-	text-align: center;
-	padding:18px 0 0 0;
-	font-family:"lato";
-	font-weight: bold;
-}
-
-.function-box p {
-	font-family:"lato";
-	text-align: center;
-	line-height: 22px;
-	padding:4 0 0 0;
-	font-weight: normal;
-	font-size: 0.9775em;
 }
